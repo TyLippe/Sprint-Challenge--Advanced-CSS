@@ -1,9 +1,6 @@
 // Navigation code here
 .nav-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .nav-display ();
     padding: 18px;
     background-color: @nav-bg;
     border-bottom: 3px @nav-border solid;
@@ -19,8 +16,7 @@
             margin-top: 14px;
         }
         a:hover {
-            font-weight: bold;
-            transition-duration: 0.1s;
+           .nav-hover ();
         }
         h2 {
             color: @header-font-color;;
