@@ -10,3 +10,14 @@
     transition-duration: 0.1s;
     color: red;
 }
+
+// Button Parametric Mixin
+.border-radius(@radius) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+            border-radius: @radius;
+  }
+  .button(@bg; @fc) {
+        background-color: @bg;
+        color: @fc;
+  }
