@@ -7,9 +7,14 @@
     img {
       border-radius: 8px;
       width: 100%;
+      @media @phone {
+        img:hover {
+          animation: none;
+        }
     }
     img:hover {
       animation: shadow-drop-center 0.3s forwards;
+        }
     }
 
     h2 {
@@ -43,6 +48,9 @@
         width: 100%;
         padding: 1%;
         margin-bottom: -8px;
+      }
+      img:hover {
+        animation: none;
       }
     }
   }
@@ -113,6 +121,9 @@
           border-radius: 20px;
           padding: 1%;
           margin: 0;
+          img:hover {
+            animation: none;
+          }
       }
       
       img {

@@ -256,7 +256,12 @@ footer {
   border-radius: 8px;
   width: 100%;
 }
-.home .intro img:hover {
+@media (max-width: 500px) {
+  .home .intro img img:hover {
+    animation: none;
+  }
+}
+.home .intro img img:hover {
   animation: shadow-drop-center 0.3s forwards;
 }
 .home .intro h2 {
@@ -288,6 +293,9 @@ footer {
     width: 100%;
     padding: 1%;
     margin-bottom: -8px;
+  }
+  .home .space-images img:hover {
+    animation: none;
   }
 }
 .home .visit-planets {
@@ -356,6 +364,9 @@ footer {
     border-radius: 20px;
     padding: 1%;
     margin: 0;
+  }
+  .home .walk .walk-img img:hover {
+    animation: none;
   }
 }
 .home .walk .walk-img img {
