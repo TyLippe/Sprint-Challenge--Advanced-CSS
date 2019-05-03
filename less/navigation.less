@@ -1,1 +1,29 @@
 // Navigation code here
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    background-color: @nav-bg;
+    border-bottom: 3px @nav-border solid;
+        a {
+            text-decoration: none;
+            font-family: @nav-font;
+            font-size: 1.6rem;
+            padding-left: 12px;
+            padding-right: 12px;
+            color: @header-font-color;
+        }
+        nav {
+            margin-top: 14px;
+        }
+        a:hover {
+            font-weight: bold;
+            transition-duration: 0.1s;
+        }
+        h2 {
+            color: @header-font-color;;
+            font-size: 4rem;
+        }
+}

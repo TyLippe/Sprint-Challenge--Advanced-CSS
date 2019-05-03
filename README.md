@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive web design will make a page that fits the widths of different devices based on the screen size, while responsive will work with the screen size no matter what the size of the screen.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is the practice of creating a webpage at its smallest form then working your way up to something like a tablet then a monitor and so on. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+REM is relative to the root so when we tell html the font size is 62.5%, rem will go off of that. So if I am correct, 1rem will just be 62.5% where 2rem would double and so on. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+To me I think of it as something that takes the data I give and it processes it into another form of data. Right now when I use nest elements in less it gets processed into normal CSS code and makes it quicker and cleaner for myself to work with.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+As I just mentioned being able to nest is my favorite, it makes finding my code quicker and cleaner, when I started I had trouble with variables, but the more I practice with them the more I am begining to understand the power of them. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -59,9 +69,9 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
@@ -78,7 +88,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -94,13 +104,13 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [x] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [x] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [x] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [x] Navigation Styles: Use the `navigation.less` file for styling.
 
 * [ ] Main Content Styles: Use the `home-page.less` file for styling
 
