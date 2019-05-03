@@ -6,6 +6,7 @@
 
     img {
       border-radius: 8px;
+      width: 100%;
     }
 
     h2 {
@@ -15,7 +16,6 @@
     p {
       padding:0 15px;
     }
-  
   }
 
   .space-images {
@@ -28,6 +28,16 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+    @media @phone {
+      .sky, .launch{
+        width: 0%;
+      }
+      img {
+        width: 100%;
+        padding: 1%;
+        margin-bottom: -8px;
+      }
     }
   }
 
@@ -73,10 +83,18 @@
             color: inherit;
             text-decoration: none;
            }
+           @media @phone {
+             width: 100%;
+             padding: 6%;
+           }
         }
+        
         .btn:hover {
-          .button(white; @btn-bg-color);}
-    }
+          .button(white; @btn-bg-color);
+          @media @phone {
+            .button(@btn-bg-color; white);
+          }
+        }
 
     .walk-img {
       width: 46%;
@@ -89,4 +107,17 @@
       }
     }
   }
+  @media @phone {
+    flex-direction: column-reverse;
+    padding: 15px;
+    img {
+      width: 100%;
+      border-radius: 20px;
+    }
+    .walk-text {
+      width: 100%;
+      padding-top: 12px;
+    }
+  }
+}
 }// home
