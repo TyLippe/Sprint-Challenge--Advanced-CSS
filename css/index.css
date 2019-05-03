@@ -23,6 +23,10 @@
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
   }
 }
+.shadow-drop-center {
+  -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
 .nav-display {
   display: flex;
   flex-direction: column;
@@ -252,6 +256,9 @@ footer {
   border-radius: 8px;
   width: 100%;
 }
+.home .intro img:hover {
+  animation: shadow-drop-center 0.3s forwards;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -268,6 +275,9 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+.home .space-images img:hover {
+  animation: shadow-drop-center 0.3s forwards;
 }
 @media (max-width: 500px) {
   .home .space-images .sky,
@@ -352,6 +362,9 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.home .walk .walk-img img:hover {
+  animation: shadow-drop-center 0.3s forwards;
 }
 @media (max-width: 500px) {
   .home .walk {
